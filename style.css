@@ -1,0 +1,207 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+header{
+  background-color: blue;
+  margin:0 auto;
+  width:100%;
+  height: 50vh;
+}
+nav{
+  position: relative;
+  margin-left: 62%;
+  top:20px;
+  color:whitesmoke;
+}
+.nav-item:first-of-type{
+  margin-right:10%
+}
+.nav-item:nth-child(n+1){
+  margin-right:5%
+}
+.nav-item-active{
+  position: relative;
+  padding:5px 5px 5px 5px;
+  color:black;
+  background-color:whitesmoke;
+  border-radius: 6px;
+}
+.nav-item:last-child{
+  margin-left: 5%;
+}
+
+.logo{
+  margin-left:2%;
+}
+.header-text{
+  margin-top:5%;
+  margin-left:3%;
+  color:whitesmoke;
+}
+.header-image{
+  width:500px;
+  position:relative;
+  margin-left:925px;
+  margin-top:-15%;
+}
+.companies{
+  margin-left:2%;
+}
+.company-items:nth-child(n+1){
+  margin-right: 2%;
+  color:black;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.api-heading{
+  margin-left:2%;
+}
+.cards{
+  display:flex;
+  flex-direction: row;
+  margin-left:1%;
+}
+.card-active{
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding-top:10px;
+  padding-right:100px;
+  padding-left:10px;
+  box-shadow: 5px 5px 5px 5px rgb(125, 139, 155);
+  border-radius: 10px;
+  background-color:white;
+}
+.card-logo1{
+  margin-left:12px;
+}
+.card-head-active{
+  margin-left:12px;
+  color:rgb(101, 23, 228);
+}
+.card-body1{
+  padding-left:12px;
+}
+.card:nth-child(n+1){
+  margin-left:4%;
+}
+.blog-heading{
+  margin-left:5%;
+  margin-top:4%;
+}
+.blog-cards{
+  display:flex;
+ 
+}
+.blog-card{
+  display:flex;
+  padding-right:50px;
+  box-shadow: 5px 5px 5px 5px rgb(125, 139, 155);
+  border-radius:60px 5px 5px 5px;
+  background-color:white;
+  margin:20px;
+}
+
+.blog-content h6{
+  color:rgb(101, 23, 228);
+  margin-left:10px;
+}
+.blog-bottom{
+  margin-left:10px;
+  order:1;
+}
+
+.blog-content{
+  order:2;
+}
+
+.faq-section{
+  width:100%;
+  background-color: cornflowerblue;
+  display:flex;
+}
+.faq-content{
+  margin-left:3%;
+}
+.faq-image{
+  margin-left:10%;
+}
+.faq-content button{
+  padding-left: 40px;
+  padding-right:40px;
+  color:white;
+  background-color:rgb(75, 75, 254);
+  border:none;
+}
+.download-section{
+  display:flex;
+}
+.download-content{
+  margin-left:5%;
+  margin-top:5%;
+}
+
+.download-content{
+  font-size: 26px;
+}
+.download-email{
+  margin-top:8%;
+  margin-left:30%;
+}
+.download-email form input{
+  padding-right:200px;
+  padding-left:100px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  border-radius: 18px;
+  background-color:rgb(198, 198, 243);
+}
+.download-email form button{
+  position:absolute;
+  padding-top:10px;
+  padding-right:20px;
+  padding-left:30px;
+  padding-bottom: 10px;
+  border-radius: 40px;
+  background-color:rgb(75, 75, 254);
+  margin-left: -50px;
+  color:white;
+}
+.footer-section{
+  display:flex;
+  background-color: rgb(75, 75, 254);
+  padding-top:100px;
+}
+
+.list{
+  display: flex;
+}
+.list-items{
+  display:inline-block;
+  color: whitesmoke;
+}
+.list-items:first-of-type{
+  margin-left: 5px; 
+}
+.list-items:nth-child(n+1){
+  margin-right:70px;
+
+}
+.footer-logo{
+  margin-left:40px;
+  margin-top:-40px;
+}
+.logos-list{
+  margin-left:210px;
+}
+.footer-right:first-of-type{
+  margin-top:-20px;
+  margin-left:175px;
+}
+.footer-logos{
+  margin-left:80px;
+}
